@@ -2,7 +2,10 @@ const mysql2 = require('mysql2/promise');
 
 // const dbConfig = {host:'localhost', user: 'root', database: 'blog'};
 
-const dbConfig = {host:'localhost', user: 'root', database: 'vector'};
+// const dbConfig = {host:'localhost', user: 'root', database: 'vector'};
+
+
+const dbConfig = {host:'localhost', user: 'admin', password: 'admin', database: 'vector'};
 
 
 async function create({table,values}){
